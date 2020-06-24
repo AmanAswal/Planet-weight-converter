@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Weight Convertor</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h1 class="display-4 text-center mb-3">
+                    Your Weight on other Planets
+                </h1>
+                <form>
+                    <div class="form-group">
+                        <input id="kgsInput" type="number" class="form-control form-control-lg"
+                            placeholder="Enter Weight in Kgs...">
+                    </div>
+                    <button class="btn btn-light mb-3" onClick="window.location.reload();">Reset</button>
+                </form>
+
+                <div id="output">
+                    <div class="card bg-danger mb-2">
+                        <div class="card-body">
+                            <h4>MERCURY</h4>
+                            <div id="mercuryOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-secondary mb-2">
+                        <div class="card-body">
+                            <h4>VENUS</h4>
+                            <div id="venusOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-info mb-2">
+                        <div class="card-body">
+                            <h4>MOON</h4>
+                            <div id="moonOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-danger mb-2">
+                        <div class="card-body">
+                            <h4>MARS</h4>
+                            <div id="marsOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-secondary mb-2">
+                        <div class="card-body">
+                            <h4>JUPITER</h4>
+                            <div id="jupiterOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-info mb-2">
+                        <div class="card-body">
+                            <h4>SATURN</h4>
+                            <div id="saturnOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-danger mb-2">
+                        <div class="card-body">
+                            <h4>URANUS</h4>
+                            <div id="uranusOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-secondary mb-2">
+                        <div class="card-body">
+                            <h4>NEPTUNE</h4>
+                            <div id="neptuneOutput"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <script src="main.js"></script>
+</body>
+
+</html>
